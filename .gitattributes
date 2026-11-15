@@ -1,0 +1,2 @@
+# BULK INSERT usa ROWTERMINATOR = 0x0a: los CSV deben conservar saltos de línea LF
+*.csv text eol=lf

@@ -1,0 +1,14 @@
+# Respaldos y archivos de base de datos
+*.bak
+*.trn
+*.mdf
+*.ndf
+*.ldf
+
+# Temporales de Office
+~$*
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db
