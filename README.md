@@ -175,8 +175,6 @@ El dashboard se conecta a SQL Server con el usuario de solo lectura `lg_powerbi`
 2. Si pide credenciales: servidor `localhost,1433`, base de datos `GimnasioDB`, autenticación de base de datos con `lg_powerbi`.
 3. Actualizar los datos.
 
-La guía para reconstruirlo (modelo, medidas DAX, visuales y filtros) está en [`docs/guia_dashboard_powerbi.md`](docs/guia_dashboard_powerbi.md).
-
 ## Documentación
 
 | Documento | Contenido |
@@ -185,7 +183,6 @@ La guía para reconstruirlo (modelo, medidas DAX, visuales y filtros) está en [
 | [`docs/matriz_seguridad.md`](docs/matriz_seguridad.md) | Roles, privilegios y auditoría |
 | [`docs/dimensionamiento.md`](docs/dimensionamiento.md) | Cálculo de tamaño por tabla, factor por índices y proyección a 5 años |
 | [`docs/estrategia_backup.md`](docs/estrategia_backup.md) | Estrategia de respaldo, RPO/RTO y recuperación |
-| [`docs/guia_dashboard_powerbi.md`](docs/guia_dashboard_powerbi.md) | Guía del dashboard |
 
 ## Cobertura de los criterios de evaluación
 
@@ -197,7 +194,7 @@ La guía para reconstruirlo (modelo, medidas DAX, visuales y filtros) está en [
 | Dimensionamiento | `docs/dimensionamiento.md` |
 | Consultas avanzadas, funciones ventana e índices | `sql/06`, `sql/07` |
 | Respaldo, RPO/RTO y jobs en SQL Agent | `sql/08`, `sql/09`, `docs/estrategia_backup.md` |
-| Dashboard en Power BI | `sql/10`, `powerbi/`, `docs/guia_dashboard_powerbi.md` |
+| Dashboard en Power BI | `sql/10`, `powerbi/` |
 | Informe y defensa | `informe/`, `docs/defensa_proyecto_final.pptx` |
 
 ## Nota académica
